@@ -1,3 +1,87 @@
+.header {
+  /* border: 1px solid red; */
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.youtube-logo {
+  width: 220px;
+  /* border: 1px solid black; */
+  /* display: flex;
+  justify-content: space-around; */
+}
+
+.image-logo {
+  height: 29px;
+  margin: 0 25px 0 20px;
+}
+
+.youtube-picture {
+  height: 24px;
+}
+
+.middle-section {
+  width: 500px;
+  /* border: 1px solid #606060; */
+  display: flex;
+  margin-left: -90px;
+}
+
+.search {
+  height: 38px;
+  flex: 1;
+}
+
+.search-image {
+  height: 24px;
+  width: 45px;
+  /* */
+}
+
+.search-image-button {
+  margin-left: -2px;
+}
+
+.voice-search-icon {
+  height: 24px;
+  width: 30px;
+  border: none;
+}
+
+.voice-search-icon-remve-border {
+  border: none;
+  background-color: #fff;
+}
+
+.end-section {
+  /* border: 1px solid green; */
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+}
+
+.upload-icon {
+  height: 30px;
+}
+
+.youtube-apps-svg {
+  height: 30px;
+}
+
+.notification-svg {
+  height: 30px;
+}
+
+.my-channel-jpeg {
+  height: 40px;
+}
+
 .video-grid {
   /* border: 1px solid red; */
   font-family: "Roboto", sans-serif;
