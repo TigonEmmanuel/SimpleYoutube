@@ -12,7 +12,7 @@
     />
     <link rel="stylesheet" href="css/index.css" />
   </head>
-  <body>
+  <body class="body">
     <header class="header">
       <div class="youtube-logo">
         <img
@@ -46,11 +46,16 @@
           src="icons/youtube-apps.svg"
           alt="youtube-apps"
         />
-        <img
-          class="notification-svg"
-          src="icons/notifications.svg"
-          alt="notification"
-        />
+        <div class="notification-container">
+          <img
+            class="notification-svg"
+            src="icons/notifications.svg"
+            alt="notification"
+          />
+          <!-- <div class="notification-display">notification</div> -->
+          <div class="number-notification">3</div>
+        </div>
+
         <img
           class="my-channel-jpeg"
           src="icons/my-channel.jpeg"
@@ -58,6 +63,41 @@
         />
       </div>
     </header>
+    <nav class="side-bar">
+      <div class="sidebar-link">
+        <img class="home-image" src="icons/home.svg" alt="home image" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img
+          src="icons/explore.svg"
+          alt="explore image"
+          class="image-explore"
+        />
+        <div>Explore</div>
+      </div>
+
+      <div class="sidebar-link">
+        <img
+          src="icons/subscriptions.svg"
+          alt="subscribe-image"
+          class="subscribe-image"
+        />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg" alt="" class="original-image" />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg" alt="" class="music-image" />
+        <div>YouTube music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg" alt="" class="library-image" />
+        <div>Library</div>
+      </div>
+    </nav>
     <main>
       <div class="video-grid">
         <div class="video-card">
@@ -69,6 +109,7 @@
                 class="thumbnail-img"
               />
             </a>
+            <div class="video-duration">14:20</div>
           </div>
 
           <div class="video-info-grid">
@@ -79,6 +120,7 @@
                   src="channel-pictures/channel-1.jpeg"
                   alt="channel-pic"
                 />
+                <!-- <div class="video-duration">3</div> -->
               </a>
             </div>
             <div class="video-info">
@@ -109,6 +151,7 @@
                 class="thumbnail-img"
               />
             </a>
+            <div class="video-durations">8:22</div>
           </div>
 
           <div class="video-info-grid">
@@ -150,6 +193,7 @@
                 class="thumbnail-img"
               />
             </a>
+            <div class="video-durationss">9:13</div>
           </div>
 
           <div class="video-info-grid">
@@ -191,6 +235,7 @@
                 class="thumbnail-img"
               />
             </a>
+            <div class="video-durationsss">22:09</div>
           </div>
           <div class="video-info-grid">
             <div class="channel-profile-pic">
@@ -231,6 +276,7 @@
                 class="thumbnail-img"
               />
             </a>
+            <div class="video-duration1">11:17</div>
           </div>
           <div class="video-info-grid">
             <div class="channel-profile-pic">
@@ -271,6 +317,7 @@
                 class="thumbnail-img"
               />
             </a>
+            <div class="video-duration2">19:59</div>
           </div>
           <div class="video-info-grid">
             <div class="channel-profile-pic">
@@ -311,6 +358,7 @@
                 class="thumbnail-img"
               />
             </a>
+            <div class="video-duration3">10:13</div>
           </div>
           <div class="video-info-grid">
             <div class="channel-profile-pic">
@@ -351,6 +399,7 @@
                 class="thumbnail-img"
               />
             </a>
+            <div class="video-duration4">10:13</div>
           </div>
           <div class="video-info-grid">
             <div class="channel-profile-pic">
